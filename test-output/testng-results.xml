@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37973" started-at="2022-09-08T12:59:52 IST" finished-at="2022-09-08T13:00:30 IST">
+  <suite name="Default suite" duration-ms="30459" started-at="2022-09-08T18:15:12 IST" finished-at="2022-09-08T18:15:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37973" started-at="2022-09-08T12:59:52 IST" finished-at="2022-09-08T13:00:30 IST">
-      <class name="Day1.First">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Day1.First@6dde5c8c]" name="beforeTest" is-config="true" duration-ms="27917" started-at="2022-09-08T12:59:52 IST" finished-at="2022-09-08T13:00:20 IST">
+    <test name="Default test" duration-ms="30459" started-at="2022-09-08T18:15:12 IST" finished-at="2022-09-08T18:15:42 IST">
+      <class name="Day1.second">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Day1.second@6dde5c8c]" name="beforeTest" is-config="true" duration-ms="21938" started-at="2022-09-08T18:15:12 IST" finished-at="2022-09-08T18:15:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.First@6dde5c8c]" name="f" duration-ms="2547" started-at="2022-09-08T13:00:20 IST" data-provider="dp" finished-at="2022-09-08T13:00:23 IST">
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.second@6dde5c8c]" name="f" duration-ms="2506" started-at="2022-09-08T18:15:34 IST" data-provider="dp" finished-at="2022-09-08T18:15:36 IST">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.First@6dde5c8c]" name="f" duration-ms="420" started-at="2022-09-08T13:00:23 IST" data-provider="dp" finished-at="2022-09-08T13:00:23 IST">
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.second@6dde5c8c]" name="f" duration-ms="553" started-at="2022-09-08T18:15:36 IST" data-provider="dp" finished-at="2022-09-08T18:15:37 IST">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.First@6dde5c8c]" name="f" duration-ms="565" started-at="2022-09-08T13:00:23 IST" data-provider="dp" finished-at="2022-09-08T13:00:24 IST">
+        <test-method status="PASS" signature="f(java.lang.String,java.lang.String)[pri:0, instance:Day1.second@6dde5c8c]" name="f" duration-ms="486" started-at="2022-09-08T18:15:37 IST" data-provider="dp" finished-at="2022-09-08T18:15:37 IST">
           <params>
             <param index="0">
               <value>
@@ -59,11 +59,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Day1.First@6dde5c8c]" name="afterTest" is-config="true" duration-ms="6094" started-at="2022-09-08T13:00:24 IST" finished-at="2022-09-08T13:00:30 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Day1.second@6dde5c8c]" name="afterTest" is-config="true" duration-ms="4919" started-at="2022-09-08T18:15:37 IST" finished-at="2022-09-08T18:15:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Day1.First -->
+      </class> <!-- Day1.second -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

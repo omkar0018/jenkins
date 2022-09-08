@@ -12,7 +12,7 @@
   <suite name ="Suite" thread-count="5"  parallel="tests" >
 <test name = "First">
 <classes>
-	<class name="Day1.First"/>
+	<class name="Day1.second"/>
 </classes>
 </test>
 

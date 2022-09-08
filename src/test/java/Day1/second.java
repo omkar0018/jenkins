@@ -11,7 +11,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.DataProvider;
 
-public class First extends BaseClass {
+public class second extends BaseClass {
   @Test(dataProvider = "dp")
   public void f(String un, String pwd) {
 	  driver.get("http://timesheet.aqmtechnologies.com/");
