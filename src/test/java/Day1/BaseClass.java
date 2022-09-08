@@ -26,16 +26,17 @@ public class BaseClass {
   
   @BeforeTest
   public void beforeTest() {
-	 System.setProperty("webdriver.chrome.driver","D:\\Shantanu_Practice\\abs\\src\\test\\resources\\Webdriver\\chromedriver.exe");
-	  driver = new ChromeDriver();
+	 //System.setProperty("webdriver.chrome.driver","D:\\Shantanu_Practice\\abs\\src\\test\\resources\\Webdriver\\chromedriver.exe");
+	 // driver = new ChromeDriver();
 	  System.setProperty("webdriver.gecko.driver","D:\\Shantanu_Practice\\abs\\src\\test\\resources\\Webdriver\\geckodriver.exe");
 	  driver = new FirefoxDriver();
 	  
   }
  
   @AfterTest
-  public void afterTest() {
+  public void afterTest() throws InterruptedException {
 	  driver.quit();
+	  Thread.sleep(3000);
   }
 }
 
